@@ -1,0 +1,39 @@
+<!-- Datei: blog-contentgenerierung.html -->
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Erstelle Content mit KI – MarketMind AI liefert personalisierte Texte, Bilder und Videos für dein Marketing.">
+  <meta name="keywords" content="KI Content Marketing, Texte mit KI, Content generieren, Personalisierte Inhalte KI">
+  <meta name="author" content="MarketMind AI">
+  <title>Content generieren mit KI – MarketMind AI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Montserrat', sans-serif; margin: 0; padding: 2rem; max-width: 800px; background: #f9f9f9; color: #333; }
+    h1, h2 { color: #0a0a23; }
+    a { color: #0a0a23; text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+  <h1>Personalisierter Content mit KI – Inhalte, die wirken</h1>
+  <p><strong>Veröffentlicht von MarketMind AI</strong> | <a href="index.html">Zurück zur Startseite</a></p>
+
+  <p>Content is King – aber guter Content braucht Zeit. Unsere <strong>KI-Content-Engine</strong> erstellt für dich überzeugende Texte, passende Bilder und sogar kurze Videos – maßgeschneidert auf deine Zielgruppe.</p>
+
+  <h2>Was kann die Content-KI?</h2>
+  <ul>
+    <li>Texterstellung für Social Media, E-Mail, Ads, Websites</li>
+    <li>Bildgenerierung passend zur Markenstimme</li>
+    <li>Video-Snippets für Reels, Shorts oder Ads</li>
+    <li>Automatische Tonalitätsanpassung je nach Zielgruppe</li>
+  </ul>
+
+  <h2>Dein Content. 10× schneller. 100 % relevant.</h2>
+  <p>Unternehmen sparen durch unsere KI-Lösungen im Schnitt **70 % der Zeit für Contentproduktion** – bei gleichbleibender Qualität und höherer Conversion.</p>
+
+  <p><a href="index.html#kontakt">Demo anfordern</a> oder lies weiter über unser <a href="blog-dashboard.html">intuitives Marketing-Dashboard</a>.</p>
+
+</body>
+</html>

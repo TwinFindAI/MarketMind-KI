@@ -1,0 +1,39 @@
+<!-- Datei: blog-automatisierte-kampagnen.html -->
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Automatisierte Kampagnen mit KI – so spart dein Unternehmen Zeit und erreicht gezielt neue Kunden.">
+  <meta name="keywords" content="Marketingautomatisierung, KI-Kampagnensteuerung, Automatisierte Werbung, KI-Marketing Tool">
+  <meta name="author" content="MarketMind AI">
+  <title>Automatisierte Kampagnen mit KI – MarketMind AI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Montserrat', sans-serif; margin: 0; padding: 2rem; max-width: 800px; background: #f9f9f9; color: #333; }
+    h1, h2 { color: #0a0a23; }
+    a { color: #0a0a23; text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+  <h1>Automatisierte Kampagnen mit KI – Dein Marketing auf Autopilot</h1>
+  <p><strong>Veröffentlicht von MarketMind AI</strong> | <a href="index.html">Zurück zur Startseite</a></p>
+
+  <p>Marketingkampagnen zu planen, zu testen und auszuwerten kostet Zeit – viel Zeit. Unsere <strong>KI-Kampagnensteuerung</strong> automatisiert diese Prozesse und verbessert dabei gleichzeitig die Performance.</p>
+
+  <h2>Wie funktioniert die KI-Automatisierung?</h2>
+  <ul>
+    <li>Multichannel-Steuerung (E-Mail, Social, Ads)</li>
+    <li>Automatische A/B-Tests und Optimierung</li>
+    <li>Budgetverteilung nach Performance in Echtzeit</li>
+    <li>Trigger-basierte Ausspielung an Nutzersegmente</li>
+  </ul>
+
+  <h2>Effizienz trifft Performance</h2>
+  <p>Unternehmen berichten von **bis zu 50 % Zeiteinsparung** im Kampagnenmanagement. Gleichzeitig stiegen die Klickraten durch KI-Optimierung deutlich.</p>
+
+  <p><a href="index.html#kontakt">Jetzt automatisieren</a> oder mehr erfahren über unsere <a href="blog-contentgenerierung.html">KI-basierte Content-Erstellung</a>.</p>
+
+</body>
+</html>

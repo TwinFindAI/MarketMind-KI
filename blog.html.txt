@@ -1,0 +1,47 @@
+<!-- Datei: blog.html -->
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Erfahre mehr über KI-gestützte Marketinglösungen von MarketMind AI. Unsere Blogartikel zeigen dir, wie du Automatisierung, Content und Analyse effektiv einsetzt.">
+  <meta name="keywords" content="KI Marketing Blog, Marketingautomatisierung, Zielgruppenanalyse, KI Content Erstellung, MarketMind AI">
+  <meta name="author" content="MarketMind AI">
+  <title>MarketMind AI Blog – Marketing mit KI neu gedacht</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Montserrat', sans-serif; margin: 0; padding: 2rem; background: #f9f9f9; color: #333; }
+    h1 { color: #0a0a23; }
+    .post { margin-bottom: 2rem; }
+    .post h2 { margin-bottom: 0.3rem; }
+    .post p { margin-top: 0; }
+    a { color: #0a0a23; text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+  <h1>Willkommen im MarketMind AI Blog</h1>
+  <p><a href="index.html">Zurück zur Startseite</a></p>
+
+  <div class="post">
+    <h2><a href="blog-zielgruppenanalyse.html">Zielgruppenanalyse mit KI</a></h2>
+    <p>Wie du mit künstlicher Intelligenz echte Insights über deine Kunden erhältst – automatisch, datengestützt und visuell verständlich.</p>
+  </div>
+
+  <div class="post">
+    <h2><a href="blog-automatisierte-kampagnen.html">Automatisierte Kampagnensteuerung</a></h2>
+    <p>Setze dein Marketing auf Autopilot: Von A/B-Tests bis Budgetverteilung – die KI übernimmt und optimiert laufend.</p>
+  </div>
+
+  <div class="post">
+    <h2><a href="blog-contentgenerierung.html">Content Creation durch KI</a></h2>
+    <p>Texte, Bilder und Videos aus einem Guss – vollautomatisch und passend zur Zielgruppe. So funktioniert modernes Content Marketing.</p>
+  </div>
+
+  <div class="post">
+    <h2><a href="blog-dashboard.html">Intuitives All-in-One Dashboard</a></h2>
+    <p>Alle Funktionen in einer Plattform: Analysen, Inhalte und Automatisierungen klar strukturiert in einem smarten Interface.</p>
+  </div>
+
+</body>
+</html>

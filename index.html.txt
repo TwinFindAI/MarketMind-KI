@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MarketMind AI – Deine KI-gestützte Marketingplattform für automatisierte Kampagnen, Zielgruppenanalyse und personalisierte Inhalte. Perfekt für KMU.">
+  <meta name="keywords" content="KI-Marketing, automatisiertes Marketing, Zielgruppenanalyse, Content AI, Marketing Automatisierung, KMU Marketing Tool">
+  <meta name="author" content="MarketMind AI">
+  <title>MarketMind AI – KI-Marketing für KMU</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background: #f9f9f9;
+    }
+    header {
+      background: #0a0a23;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header img {
+      max-width: 120px;
+      margin-bottom: 1rem;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #0a0a23;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: space-between;
+    }
+    .feature {
+      flex: 1 1 45%;
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    input, textarea {
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+    button {
+      background: #0a0a23;
+      color: white;
+      padding: 1rem;
+      border: none;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      background: #0a0a23;
+      color: white;
+      padding: 1rem;
+    }
+    @media (max-width: 768px) {
+      .features {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="MarketMind AI Logo">
+    <h1>Willkommen bei MarketMind AI</h1>
+    <p>Dein intelligenter Marketing-Assistent für Automatisierung, Zielgruppenanalyse und personalisierte Inhalte.</p>
+    <nav>
+      <a href="#features">Angebot</a>
+      <a href="#kontakt">Kontakt</a>
+      <a href="blog.html">Blog</
+      <a href="tool-zielgruppenanalyse.html">Tools</a>
+      <a href="abonnements.html">Abonnements</a>
+    </nav>
+  </header>
+
+<main>
+  <h1>Zielgruppenanalyse mit KI</h1>
+  <p>Entdecke mit MarketMind AI ein revolutionäres Tool zur Zielgruppenanalyse. Mithilfe von künstlicher Intelligenz analysieren wir automatisch demografische Daten, Verhaltensmuster und Interessen deiner Nutzer und liefern dir verwertbare Insights für deine Marketingstrategie.</p>
+
+  <h2>Test jetzt kostenlos starten</h2>
+  <p>Du hast <span id="attempts"></span> von 3 kostenlosen Versuchen übrig.</p>
+  <button onclick="runTest()">Jetzt analysieren</button>
+  <div class="message" id="message"></div>
+
+  <p><strong>Einzigartig:</strong> Unsere KI analysiert Daten aus CRM, Social Media und deinem Web-Traffic – automatisiert, DSGVO-konform und in Echtzeit.</p>
+
+  <p>Weitere Tools:
+    <a href="tool-automatisierte-kampagnen.html">Automatisierte Kampagnen</a> |
+    <a href="tool-contentgenerierung.html">KI-Contentgenerierung</a> |
+    <a href="tool-dashboard.html">Marketing-Dashboard</a>
+  </p>
+</main>
+
+<script>
+  const maxAttempts = 3;
+  let attempts = localStorage.getItem('attempts_zielgruppenanalyse');
+  if (!attempts) {
+    localStorage.setItem('attempts_zielgruppenanalyse', maxAttempts);
+    attempts = maxAttempts;
+  }
+
+  document.getElementById('attempts').innerText = attempts;
+
+  function runTest() {
+    let remaining = parseInt(localStorage.getItem('attempts_zielgruppenanalyse'));
+    if (remaining > 0) {
+      remaining--;
+      localStorage.setItem('attempts_zielgruppenanalyse', remaining);
+      document.getElementById('attempts').innerText = remaining;
+      document.getElementById('message').innerText = "Analyse erfolgreich durchgeführt!";
+    } else {
+      window.location.href = "abonnements.html";
+    }
+  }
+</script>
+
+  <section id="features">
+    <h2>Was wir anbieten</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>KI-Zielgruppenanalyse</h3>
+        <p>Erkenne Muster in deinem Kundenverhalten und erstelle präzise Buyer Personas mit einem Klick.</p>
+      </div>
+      <div class="feature">
+        <h3>Automatisierte Kampagnen</h3>
+        <p>Spare Zeit und Ressourcen – unsere KI erstellt, optimiert und steuert deine Kampagnen über alle Kanäle.</p>
+      </div>
+      <div class="feature">
+        <h3>Personalisierter Content</h3>
+        <p>Generiere individuelle Texte, Bilder und Videos mit KI – auf deine Zielgruppe abgestimmt.</p>
+      </div>
+      <div class="feature">
+        <h3>Intuitive Plattform</h3>
+        <p>Keine Programmierkenntnisse nötig – ein Dashboard, das alles kann. Ideal für KMU & Agenturen.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontakt">
+    <h2>Kontakt & Demo anfordern</h2>
+    <form action="#" method="POST">
+      <input type="text" name="name" placeholder="Dein Name" required>
+      <input type="email" name="email" placeholder="Deine E-Mail-Adresse" required>
+      <textarea name="nachricht" placeholder="Wie können wir dir helfen?" rows="5"></textarea>
+      <button type="submit">Absenden</button>
+    </form>
+  </section>
+
+  <section id="newsletter">
+    <h2>Newsletter abonnieren</h2>
+    <p>Erhalte exklusive Einblicke in KI-Marketing und Updates zu MarketMind AI.</p>
+    <form action="#" method="POST">
+      <input type="email" name="newsletter" placeholder="Deine E-Mail-Adresse" required>
+      <button type="submit">Abonnieren</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 MarketMind AI – <a href="blog.html" style="color: #fff; text-decoration: underline;">Mehr erfahren im Blog</a>
+  </footer>
+</body>
+</html>

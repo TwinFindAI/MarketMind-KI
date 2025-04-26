@@ -1,0 +1,39 @@
+<!-- Datei: blog-dashboard.html -->
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Einfache Marketingplattform für KMU – alle Tools in einem übersichtlichen Dashboard.">
+  <meta name="keywords" content="Marketing Dashboard KMU, KI-Marketing Plattform, Intuitives Dashboard, Marketing Suite">
+  <meta name="author" content="MarketMind AI">
+  <title>Intuitives Marketing-Dashboard – MarketMind AI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Montserrat', sans-serif; margin: 0; padding: 2rem; max-width: 800px; background: #f9f9f9; color: #333; }
+    h1, h2 { color: #0a0a23; }
+    a { color: #0a0a23; text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+  <h1>Ein Dashboard. Alle Funktionen. Deine KI-Marketingzentrale.</h1>
+  <p><strong>Veröffentlicht von MarketMind AI</strong> | <a href="index.html">Zurück zur Startseite</a></p>
+
+  <p>Viele Tools, viele Daten – aber keine Übersicht? Unsere <strong>Marketingplattform für KMU</strong> bündelt alle Funktionen in einem klar strukturierten Dashboard.</p>
+
+  <h2>Alles auf einen Blick:</h2>
+  <ul>
+    <li>Zielgruppenanalysen und KPIs</li>
+    <li>Content-Management & Performance</li>
+    <li>Automatisierungsstatus in Echtzeit</li>
+    <li>Empfehlungen durch KI-Insights</li>
+  </ul>
+
+  <h2>Warum KMU unsere Plattform lieben:</h2>
+  <p>Einfach, klar und effizient. Keine komplizierten Interfaces, keine steilen Lernkurven – einfach starten und wachsen.</p>
+
+  <p><a href="index.html#kontakt">Jetzt starten</a> oder entdecke unsere <a href="blog-zielgruppenanalyse.html">KI-Zielgruppenanalyse</a>.</p>
+
+</body>
+</html>
